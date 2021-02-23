@@ -1,6 +1,6 @@
 package com.lihao.springjpa.repository;
 
-import com.lihao.springjpa.model.User;
+import com.lihao.springjpa.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

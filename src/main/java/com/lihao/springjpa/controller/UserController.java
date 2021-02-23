@@ -1,6 +1,6 @@
 package com.lihao.springjpa.controller;
 
-import com.lihao.springjpa.model.Resp;
+import com.lihao.springjpa.entity.Resp;
 import com.lihao.springjpa.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -34,7 +34,7 @@ public class UserController {
     }
 
 
-    @GetMapping("all/{userId}")
+    @GetMapping("get/{userId}")
     public Resp retrieveById(@PathVariable("userId") String userId){
         try {
             return Resp.isOk().data(userService.getById(userId));

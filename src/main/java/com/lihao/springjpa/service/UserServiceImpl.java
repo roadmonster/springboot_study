@@ -1,6 +1,6 @@
 package com.lihao.springjpa.service;
 
-import com.lihao.springjpa.model.User;
+import com.lihao.springjpa.entity.User;
 import com.lihao.springjpa.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

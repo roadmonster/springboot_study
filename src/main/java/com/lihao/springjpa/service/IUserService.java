@@ -1,6 +1,6 @@
 package com.lihao.springjpa.service;
 
-import com.lihao.springjpa.model.User;
+import com.lihao.springjpa.entity.User;
 
 import java.util.List;
 

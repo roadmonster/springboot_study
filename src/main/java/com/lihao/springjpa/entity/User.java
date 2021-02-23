@@ -1,4 +1,4 @@
-package com.lihao.springjpa.model;
+package com.lihao.springjpa.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
