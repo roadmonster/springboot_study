@@ -24,7 +24,7 @@ public class UserServiceImpl implements IUserService{
     }
 
     @Override
-    public User get(String userId) {
+    public User getById(String userId) {
         return userRepository.getOne(userId);
     }
 }
